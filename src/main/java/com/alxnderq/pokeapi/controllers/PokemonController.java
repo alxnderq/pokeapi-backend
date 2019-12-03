@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PokemonController {
 
-    @GetMapping(path = "/home")
+    @GetMapping(path = "/pokemon")
     public String home() {
         return "hola";
     }
